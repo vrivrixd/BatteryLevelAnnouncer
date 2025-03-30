@@ -6,7 +6,7 @@ Battery Level Announcer is an NVDA add-on that announces the battery level at co
 ## Features
 - Configurable announcement intervals;
 - Announcement modes;
-- Customizable battery check interval, o avoid freezing of the CPU;
+- Customizable battery check interval, to avoid freezing of the CPU;
 - Support for custom sounds for each percentage.
 ## Contact info
 *   [Telegram](https://t.me/vrivrixd)
