@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batteriestandsankündiger</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Batteriestandsankündiger</h1>
+    <h2>Von Vitor Bruski</h2>
+    <p>Der <strong>Batteriestandsankündiger</strong> ist ein Add-on für NVDA, das den Batteriestand in konfigurierbaren Intervallen mit Ton und/oder Sprache ankündigt. Es bietet flexible Optionen zur Anpassung der Ankündigungen.</p>
+    
+    <h2>Funktionen</h2>
+    <ul>
+        <li>Konfigurierbare Ankündigungsintervalle;</li>
+        <li>Ankündigungsmodi;</li>
+        <li>Anpassbares Prüfintervall der Batterie;</li>
+        <li>Unterstützung für benutzerdefinierte Töne für jeden Prozentsatz.</li>
+    </ul>
+    
+    <h2>Verwendung</h2>
+    <p>Nach der Installation konfigurieren Sie das Add-on über das Menü <strong>NVDA > Einstellungen > Einstellungen > Batteriestandsankündiger</strong>. Die verfügbaren Optionen sind:</p>
+    <ul>
+        <li><strong>Prüfintervall der Batterie (Sekunden):</strong> Legen Sie fest, wie viele Sekunden das Add-on zwischen jeder Überprüfung des Batteriestands wartet. Je kleiner der Wert, desto höher der CPU-Verbrauch.</li>
+        <li><strong>Ankündigungsintervall:</strong> Wählen Sie zwischen:
+            <ul>
+                <li>Deaktiviert; Keine Ankündigungen.</li>
+                <li>5 % (kündigt bei 5 %, 10 %, 15 %, usw. an)</li>
+                <li>10 % (kündigt bei 10 %, 20 %, 30 %, usw. an)</li>
+                <li>20 % (kündigt bei 20 %, 40 %, 60 %, usw. an)</li>
+                <li>25 % (kündigt bei 25 %, 50 %, 75 %, 100 % an)</li>
+                <li>50 % (kündigt bei 50 %, 100 % an)</li>
+                <li>Nur wenn der Akku voll ist (kündigt nur bei 100 % an)</li>
+            </ul>
+        </li>
+        <li><strong>Ankündigungsmodus:</strong> Wählen Sie zwischen:
+            <ul>
+                <li>Nur Sprache;</li>
+                <li>Nur Ton;</li>
+                <li>Ton und Sprache.</li>
+            </ul>
+        </li>
+        <li><strong>Ankündigungston auswählen:</strong> Wählen Sie eine WAV-Datei aus dem Ordner <code>sounds\</code> für Ankündigungen.</li>
+        <li><strong>Benutzerdefinierte Töne für jeden Prozentsatz verwenden:</strong> Aktivieren Sie diese Option, um spezifische WAV-Dateien (z. B. 5.wav, 10.wav) im Ordner <code>sounds\custom\</code> zu verwenden, entsprechend dem gewählten Intervall.</li>
+        <li><strong>Tonordner öffnen:</strong> Öffnet den Ordner <code>sounds\</code> im Datei-Explorer, damit Sie Ihre eigenen Töne verwenden können.</li>
+        <li><strong>Benutzerdefinierten Tonordner öffnen:</strong> Öffnet den Ordner <code>sounds\custom\</code>.</li>
+    </ul>
+    
+    <h2>Anforderungen</h2>
+    <ul>
+        <li>NVDA-Version 2019.3 oder höher.</li>
+        <li>Windows-Betriebssystem mit Batterieunterstützung (z. B. Laptops).</li>
+    </ul>
+    
+    <h2>Lizenz</h2>
+    <p>Lizenziert unter der <a href="https://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License v2 (GPLv2)</a>.</p>
+</body>
+</html>

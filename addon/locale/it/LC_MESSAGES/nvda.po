@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battery Level Announcer 1.0\n"
+"Report-Msgid-Bugs-To: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"POT-Creation-Date: 2025-02-25 12:00-0300\n"
+"PO-Revision-Date: 2025-02-25 12:00-0300\n"
+"Last-Translator: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Battery Level Announcer"
+msgstr "Annunciatore del livello della batteria"
+
+msgid "Battery check interval (seconds):"
+msgstr "Intervallo di controllo della batteria (secondi):"
+
+msgid "Announcement interval:"
+msgstr "Intervallo di annuncio:"
+
+msgid "Disabled"
+msgstr "Disattivato"
+
+msgid "5%"
+msgstr "5%"
+
+msgid "10%"
+msgstr "10%"
+
+msgid "20%"
+msgstr "20%"
+
+msgid "25%"
+msgstr "25%"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "Only when battery is full"
+msgstr "Solo quando la batteria è piena"
+
+msgid "Announcement mode:"
+msgstr "Modalità di annuncio:"
+
+msgid "Speech only"
+msgstr "Solo voce"
+
+msgid "Sound only"
+msgstr "Solo suono"
+
+msgid "Sound and Speech"
+msgstr "Suono e voce"
+
+msgid "Select announcement sound:"
+msgstr "Seleziona suono di annuncio:"
+
+msgid "No sounds available"
+msgstr "Nessun suono disponibile"
+
+msgid "Open sounds folder"
+msgstr "Apri cartella dei suoni"
+
+msgid "Failed to play sound: {error}"
+msgstr "Impossibile riprodurre il suono: {error}"
+
+msgid "Error"
+msgstr "Errore"
+
+msgid "Failed to open sounds folder: {error}"
+msgstr "Impossibile aprire la cartella dei suoni: {error}"
+
+msgid "Please enter a valid positive integer for the battery check interval (e.g., 1, 2, 3)."
+msgstr "Inserisci un numero intero positivo valido per l'intervallo di controllo della batteria (ad esempio, 1, 2, 3)."
+
+msgid "Invalid Input"
+msgstr "Input non valido"
+
+msgid "Battery level: {level}%"
+msgstr "Livello della batteria: {level}%"
+
+msgid "Use custom sounds for each percentage"
+msgstr "Usa suoni personalizzati per ogni percentuale"
+
+msgid "Open custom sounds folder"
+msgstr "Apri cartella dei suoni personalizzati"
+
+msgid "Failed to open custom sounds folder: {error}"
+msgstr "Impossibile aprire la cartella dei suoni personalizzati: {error}"
+
+msgid "The custom sounds folder is empty. Please add WAV files (e.g., 5.wav, 10.wav, etc.) to the 'sounds/custom' folder for each percentage."
+msgstr "La cartella dei suoni personalizzati è vuota. Aggiungi file WAV (ad esempio, 5.wav, 10.wav, ecc.) alla cartella 'sounds/custom' per ogni percentuale."
+
+msgid "Warning"
+msgstr "Avviso"
+
+msgid "The custom sounds folder was not found and may have been deleted. It has been recreated. Please restart NVDA to ensure it is fully initialized, then add WAV files (e.g., 5.wav, 10.wav, etc.) to 'sounds/custom'."
+msgstr "La cartella dei suoni personalizzati non è stata trovata e potrebbe essere stata eliminata. È stata ricreata. Riavvia NVDA per assicurarti che sia completamente inizializzata, quindi aggiungi file WAV (ad esempio, 5.wav, 10.wav, ecc.) alla cartella 'sounds/custom'."
+
+msgid "This computer does not have a system battery. The Battery Level Announcer will be disabled."
+msgstr "Questo computer non ha una batteria di sistema. L'Annunciatore del Livello della Batteria verrà disattivato."
+
+msgid "No Battery Detected"
+msgstr "Nessuna Batteria Rilevata"

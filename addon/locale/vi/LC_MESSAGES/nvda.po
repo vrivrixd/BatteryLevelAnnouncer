@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battery Level Announcer 1.0\n"
+"Report-Msgid-Bugs-To: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"POT-Creation-Date: 2025-02-25 12:00-0300\n"
+"PO-Revision-Date: 2025-02-25 12:00-0300\n"
+"Last-Translator: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Battery Level Announcer"
+msgstr "Thông Báo Mức Pin"
+
+msgid "Battery check interval (seconds):"
+msgstr "Khoảng thời gian kiểm tra pin (giây):"
+
+msgid "Announcement interval:"
+msgstr "Khoảng thời gian thông báo:"
+
+msgid "Disabled"
+msgstr "Đã tắt"
+
+msgid "5%"
+msgstr "5%"
+
+msgid "10%"
+msgstr "10%"
+
+msgid "20%"
+msgstr "20%"
+
+msgid "25%"
+msgstr "25%"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "Only when battery is full"
+msgstr "Chỉ khi pin đầy"
+
+msgid "Announcement mode:"
+msgstr "Chế độ thông báo:"
+
+msgid "Speech only"
+msgstr "Chỉ giọng nói"
+
+msgid "Sound only"
+msgstr "Chỉ âm thanh"
+
+msgid "Sound and Speech"
+msgstr "Âm thanh và giọng nói"
+
+msgid "Select announcement sound:"
+msgstr "Chọn âm thanh thông báo:"
+
+msgid "No sounds available"
+msgstr "Không có âm thanh nào khả dụng"
+
+msgid "Open sounds folder"
+msgstr "Mở thư mục âm thanh"
+
+msgid "Failed to play sound: {error}"
+msgstr "Không thể phát âm thanh: {error}"
+
+msgid "Error"
+msgstr "Lỗi"
+
+msgid "Failed to open sounds folder: {error}"
+msgstr "Không thể mở thư mục âm thanh: {error}"
+
+msgid "Please enter a valid positive integer for the battery check interval (e.g., 1, 2, 3)."
+msgstr "Vui lòng nhập một số nguyên dương hợp lệ cho khoảng thời gian kiểm tra pin (ví dụ: 1, 2, 3)."
+
+msgid "Invalid Input"
+msgstr "Dữ liệu đầu vào không hợp lệ"
+
+msgid "Battery level: {level}%"
+msgstr "Mức pin: {level}%"
+
+msgid "Use custom sounds for each percentage"
+msgstr "Sử dụng âm thanh tùy chỉnh cho mỗi mức phần trăm"
+
+msgid "Open custom sounds folder"
+msgstr "Mở thư mục âm thanh tùy chỉnh"
+
+msgid "Failed to open custom sounds folder: {error}"
+msgstr "Không thể mở thư mục âm thanh tùy chỉnh: {error}"
+
+msgid "The custom sounds folder is empty. Please add WAV files (e.g., 5.wav, 10.wav, etc.) to the 'sounds/custom' folder for each percentage."
+msgstr "Thư mục âm thanh tùy chỉnh trống. Vui lòng thêm các tệp WAV (ví dụ: 5.wav, 10.wav, v.v.) vào thư mục 'sounds/custom' cho mỗi mức phần trăm."
+
+msgid "Warning"
+msgstr "Cảnh báo"
+
+msgid "The custom sounds folder was not found and may have been deleted. It has been recreated. Please restart NVDA to ensure it is fully initialized, then add WAV files (e.g., 5.wav, 10.wav, etc.) to 'sounds/custom'."
+msgstr "Thư mục âm thanh tùy chỉnh không được tìm thấy và có thể đã bị xóa. Nó đã được tạo lại. Vui lòng khởi động lại NVDA để đảm bảo nó được khởi tạo hoàn toàn, sau đó thêm các tệp WAV (ví dụ: 5.wav, 10.wav, v.v.) vào 'sounds/custom'."
+
+msgid "This computer does not have a system battery. The Battery Level Announcer will be disabled."
+msgstr "Máy tính này không có pin hệ thống. Thông Báo Mức Pin sẽ bị tắt."
+
+msgid "No Battery Detected"
+msgstr "Không Phát Hiện Pin"

@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battery Level Announcer 1.0\n"
+"Report-Msgid-Bugs-To: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"POT-Creation-Date: 2025-02-25 12:00-0300\n"
+"PO-Revision-Date: 2025-02-25 12:00-0300\n"
+"Last-Translator: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"Language-Team: Hindi <hi@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Battery Level Announcer"
+msgstr "बैटरी स्तर घोषक"
+
+msgid "Battery check interval (seconds):"
+msgstr "बैटरी जाँच अंतराल (सेकंड):"
+
+msgid "Announcement interval:"
+msgstr "घोषणा अंतराल:"
+
+msgid "Disabled"
+msgstr "अक्षम"
+
+msgid "5%"
+msgstr "5%"
+
+msgid "10%"
+msgstr "10%"
+
+msgid "20%"
+msgstr "20%"
+
+msgid "25%"
+msgstr "25%"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "Only when battery is full"
+msgstr "केवल जब बैटरी पूरी तरह चार्ज हो"
+
+msgid "Announcement mode:"
+msgstr "घोषणा मोड:"
+
+msgid "Speech only"
+msgstr "केवल वाक्"
+
+msgid "Sound only"
+msgstr "केवल ध्वनि"
+
+msgid "Sound and Speech"
+msgstr "ध्वनि और वाक्"
+
+msgid "Select announcement sound:"
+msgstr "घोषणा ध्वनि चुनें:"
+
+msgid "No sounds available"
+msgstr "कोई ध्वनि उपलब्ध नहीं"
+
+msgid "Open sounds folder"
+msgstr "ध्वनि फ़ोल्डर खोलें"
+
+msgid "Failed to play sound: {error}"
+msgstr "ध्वनि चलाने में विफल: {error}"
+
+msgid "Error"
+msgstr "त्रुटि"
+
+msgid "Failed to open sounds folder: {error}"
+msgstr "ध्वनि फ़ोल्डर खोलने में विफल: {error}"
+
+msgid "Please enter a valid positive integer for the battery check interval (e.g., 1, 2, 3)."
+msgstr "कृपया बैटरी जाँच अंतराल के लिए एक मान्य धनात्मक पूर्णांक दर्ज करें (उदाहरण: 1, 2, 3)।"
+
+msgid "Invalid Input"
+msgstr "अमान्य इनपुट"
+
+msgid "Battery level: {level}%"
+msgstr "बैटरी स्तर: {level}%"
+
+msgid "Use custom sounds for each percentage"
+msgstr "प्रत्येक प्रतिशत के लिए कस्टम ध्वनियाँ उपयोग करें"
+
+msgid "Open custom sounds folder"
+msgstr "कस्टम ध्वनि फ़ोल्डर खोलें"
+
+msgid "Failed to open custom sounds folder: {error}"
+msgstr "कस्टम ध्वनि फ़ोल्डर खोलने में विफल: {error}"
+
+msgid "The custom sounds folder is empty. Please add WAV files (e.g., 5.wav, 10.wav, etc.) to the 'sounds/custom' folder for each percentage."
+msgstr "कस्टम ध्वनि फ़ोल्डर खाली है। कृपया प्रत्येक प्रतिशत के लिए 'sounds/custom' फ़ोल्डर में WAV फ़ाइलें (उदाहरण: 5.wav, 10.wav, आदि) जोड़ें।"
+
+msgid "Warning"
+msgstr "चेतावनी"
+
+msgid "The custom sounds folder was not found and may have been deleted. It has been recreated. Please restart NVDA to ensure it is fully initialized, then add WAV files (e.g., 5.wav, 10.wav, etc.) to 'sounds/custom'."
+msgstr "कस्टम ध्वनि फ़ोल्डर नहीं मिला और संभवतः हटा दिया गया था। इसे फिर से बनाया गया है। कृपया NVDA को पुनरारंभ करें ताकि यह पूरी तरह से प्रारंभ हो सके, फिर 'sounds/custom' में WAV फ़ाइलें (उदाहरण: 5.wav, 10.wav, आदि) जोड़ें।"
+
+msgid "This computer does not have a system battery. The Battery Level Announcer will be disabled."
+msgstr "इस कंप्यूटर में सिस्टम बैटरी नहीं है। बैटरी स्तर घोषक अक्षम कर दिया जाएगा।"
+
+msgid "No Battery Detected"
+msgstr "कोई बैटरी नहीं मिली"

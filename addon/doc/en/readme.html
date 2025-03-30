@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Level Announcer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Battery Level Announcer</h1>
+    <h2>By Vitor Bruski</h2>
+    <p>The <strong>Battery Level Announcer</strong> is an NVDA add-on that announces the battery level at configurable intervals using sound and/or speech. It offers flexible options to customize the announcements.</p>
+    
+    <h2>Features</h2>
+    <ul>
+        <li>Configurable announcement intervals;</li>
+        <li>Announcement modes;</li>
+        <li>Customizable battery check interval;</li>
+        <li>Support for custom sounds for each percentage.</li>
+    </ul>
+    
+    <h2>Usage</h2>
+    <p>After installation, configure the add-on through the menu <strong>NVDA > Preferences > Settings > Battery Level Announcer</strong>. The available options are:</p>
+    <ul>
+        <li><strong>Battery check interval (seconds):</strong> Set how many seconds the add-on waits between each battery level check. The lower the value, the higher the CPU usage.</li>
+        <li><strong>Announcement interval:</strong> Choose from:
+            <ul>
+                <li>Disabled; No announcements.</li>
+                <li>5% (announces at 5%, 10%, 15%, etc.)</li>
+                <li>10% (announces at 10%, 20%, 30%, etc.)</li>
+                <li>20% (announces at 20%, 40%, 60%, etc.)</li>
+                <li>25% (announces at 25%, 50%, 75%, 100%)</li>
+                <li>50% (announces at 50%, 100%)</li>
+                <li>Only when battery is full (announces only at 100%)</li>
+            </ul>
+        </li>
+        <li><strong>Announcement mode:</strong> Select between:
+            <ul>
+                <li>Speech only;</li>
+                <li>Sound only;</li>
+                <li>Sound and speech.</li>
+            </ul>
+        </li>
+        <li><strong>Select announcement sound:</strong> Choose a WAV file from the <code>sounds\</code> folder for announcements.</li>
+        <li><strong>Use custom sounds for each percentage:</strong> Check this box to use specific WAV files (e.g., 5.wav, 10.wav) in the <code>sounds\custom\</code> folder, corresponding to the chosen interval.</li>
+        <li><strong>Open sounds folder:</strong> Opens the <code>sounds\</code> folder in the file explorer, so you can use your own sounds.</li>
+        <li><strong>Open custom sounds folder:</strong> Opens the <code>sounds\custom\</code> folder.</li>
+    </ul>
+    
+    <h2>Requirements</h2>
+    <ul>
+        <li>NVDA version 2019.3 or higher.</li>
+        <li>Windows operating system with battery support (e.g., laptops).</li>
+    </ul>
+    
+    <h2>License</h2>
+    <p>Licensed under the <a href="https://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License v2 (GPLv2)</a>.</p>
+</body>
+</html>

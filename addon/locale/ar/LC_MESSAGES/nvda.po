@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battery Level Announcer 1.0\n"
+"Report-Msgid-Bugs-To: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"POT-Creation-Date: 2025-02-25 12:00-0300\n"
+"PO-Revision-Date: 2025-02-25 12:00-0300\n"
+"Last-Translator: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Battery Level Announcer"
+msgstr "مُعلن مستوى البطارية"
+
+msgid "Battery check interval (seconds):"
+msgstr "فاصل التحقق من البطارية (ثوانٍ):"
+
+msgid "Announcement interval:"
+msgstr "فاصل الإعلان:"
+
+msgid "Disabled"
+msgstr "معطل"
+
+msgid "5%"
+msgstr "5%"
+
+msgid "10%"
+msgstr "10%"
+
+msgid "20%"
+msgstr "20%"
+
+msgid "25%"
+msgstr "25%"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "Only when battery is full"
+msgstr "فقط عندما تكون البطارية ممتلئة"
+
+msgid "Announcement mode:"
+msgstr "وضع الإعلان:"
+
+msgid "Speech only"
+msgstr "الكلام فقط"
+
+msgid "Sound only"
+msgstr "الصوت فقط"
+
+msgid "Sound and Speech"
+msgstr "الصوت والكلام"
+
+msgid "Select announcement sound:"
+msgstr "اختر صوت الإعلان:"
+
+msgid "No sounds available"
+msgstr "لا توجد أصوات متاحة"
+
+msgid "Open sounds folder"
+msgstr "فتح مجلد الأصوات"
+
+msgid "Failed to play sound: {error}"
+msgstr "فشل في تشغيل الصوت: {error}"
+
+msgid "Error"
+msgstr "خطأ"
+
+msgid "Failed to open sounds folder: {error}"
+msgstr "فشل في فتح مجلد الأصوات: {error}"
+
+msgid "Please enter a valid positive integer for the battery check interval (e.g., 1, 2, 3)."
+msgstr "يرجى إدخال عدد صحيح موجب صالح لفاصل التحقق من البطارية (مثل: 1، 2، 3)."
+
+msgid "Invalid Input"
+msgstr "إدخال غير صالح"
+
+msgid "Battery level: {level}%"
+msgstr "مستوى البطارية: {level}%"
+
+msgid "Use custom sounds for each percentage"
+msgstr "استخدام أصوات مخصصة لكل نسبة مئوية"
+
+msgid "Open custom sounds folder"
+msgstr "فتح مجلد الأصوات المخصصة"
+
+msgid "Failed to open custom sounds folder: {error}"
+msgstr "فشل في فتح مجلد الأصوات المخصصة: {error}"
+
+msgid "The custom sounds folder is empty. Please add WAV files (e.g., 5.wav, 10.wav, etc.) to the 'sounds/custom' folder for each percentage."
+msgstr "مجلد الأصوات المخصصة فارغ. يرجى إضافة ملفات WAV (مثل: 5.wav، 10.wav، إلخ) إلى مجلد 'sounds/custom' لكل نسبة مئوية."
+
+msgid "Warning"
+msgstr "تحذير"
+
+msgid "The custom sounds folder was not found and may have been deleted. It has been recreated. Please restart NVDA to ensure it is fully initialized, then add WAV files (e.g., 5.wav, 10.wav, etc.) to 'sounds/custom'."
+msgstr "لم يتم العثور على مجلد الأصوات المخصصة وقد يكون قد تم حذفه. تم إعادة إنشائه. يرجى إعادة تشغيل NVDA للتأكد من تهيئته بالكامل، ثم أضف ملفات WAV (مثل: 5.wav، 10.wav، إلخ) إلى 'sounds/custom'."
+
+msgid "This computer does not have a system battery. The Battery Level Announcer will be disabled."
+msgstr "هذا الكمبيوتر لا يحتوي على بطارية نظام. سيتم تعطيل مُعلن مستوى البطارية."
+
+msgid "No Battery Detected"
+msgstr "لم يتم اكتشاف بطارية"

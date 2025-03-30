@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battery Level Announcer 1.0\n"
+"Report-Msgid-Bugs-To: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"POT-Creation-Date: 2025-02-25 12:00-0300\n"
+"PO-Revision-Date: 2025-02-25 12:00-0300\n"
+"Last-Translator: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Battery Level Announcer"
+msgstr "Оповещатель уровня батареи"
+
+msgid "Battery check interval (seconds):"
+msgstr "Интервал проверки батареи (секунды):"
+
+msgid "Announcement interval:"
+msgstr "Интервал оповещения:"
+
+msgid "Disabled"
+msgstr "Отключено"
+
+msgid "5%"
+msgstr "5%"
+
+msgid "10%"
+msgstr "10%"
+
+msgid "20%"
+msgstr "20%"
+
+msgid "25%"
+msgstr "25%"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "Only when battery is full"
+msgstr "Только когда батарея полностью заряжена"
+
+msgid "Announcement mode:"
+msgstr "Режим оповещения:"
+
+msgid "Speech only"
+msgstr "Только речь"
+
+msgid "Sound only"
+msgstr "Только звук"
+
+msgid "Sound and Speech"
+msgstr "Звук и речь"
+
+msgid "Select announcement sound:"
+msgstr "Выбрать звук оповещения:"
+
+msgid "No sounds available"
+msgstr "Звуки отсутствуют"
+
+msgid "Open sounds folder"
+msgstr "Открыть папку звуков"
+
+msgid "Failed to play sound: {error}"
+msgstr "Не удалось воспроизвести звук: {error}"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Failed to open sounds folder: {error}"
+msgstr "Не удалось открыть папку звуков: {error}"
+
+msgid "Please enter a valid positive integer for the battery check interval (e.g., 1, 2, 3)."
+msgstr "Пожалуйста, введите действительное положительное целое число для интервала проверки батареи (например, 1, 2, 3)."
+
+msgid "Invalid Input"
+msgstr "Недопустимый ввод"
+
+msgid "Battery level: {level}%"
+msgstr "Уровень батареи: {level}%"
+
+msgid "Use custom sounds for each percentage"
+msgstr "Использовать пользовательские звуки для каждого процента"
+
+msgid "Open custom sounds folder"
+msgstr "Открыть папку пользовательских звуков"
+
+msgid "Failed to open custom sounds folder: {error}"
+msgstr "Не удалось открыть папку пользовательских звуков: {error}"
+
+msgid "The custom sounds folder is empty. Please add WAV files (e.g., 5.wav, 10.wav, etc.) to the 'sounds/custom' folder for each percentage."
+msgstr "Папка пользовательских звуков пуста. Пожалуйста, добавьте файлы WAV (например, 5.wav, 10.wav и т.д.) в папку 'sounds/custom' для каждого процента."
+
+msgid "Warning"
+msgstr "Предупреждение"
+
+msgid "The custom sounds folder was not found and may have been deleted. It has been recreated. Please restart NVDA to ensure it is fully initialized, then add WAV files (e.g., 5.wav, 10.wav, etc.) to 'sounds/custom'."
+msgstr "Папка пользовательских звуков не найдена и, возможно, была удалена. Она была воссоздана. Пожалуйста, перезапустите NVDA, чтобы убедиться, что она полностью инициализирована, затем добавьте файлы WAV (например, 5.wav, 10.wav и т.д.) в папку 'sounds/custom'."
+
+msgid "This computer does not have a system battery. The Battery Level Announcer will be disabled."
+msgstr "Этот компьютер не имеет системной батареи. Оповещатель уровня батареи будет отключен."
+
+msgid "No Battery Detected"
+msgstr "Батарея Не Обнаружена"

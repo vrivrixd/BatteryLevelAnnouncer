@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anunciador do Nível da Bateria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Anunciador do Nível da Bateria</h1>
+    <h2>Por Vitor Bruski</h2>
+    <p>O <strong>Anunciador do Nível da Bateria</strong> é um complemento para o NVDA que anuncia o nível da bateria em intervalos configuráveis usando som e/ou voz. Ele oferece opções flexíveis para personalizar os anúncios.</p>
+    
+    <h2>Recursos</h2>
+    <ul>
+        <li>Intervalos de anúncio configuráveis;</li>
+        <li>Modos de anúncio;</li>
+        <li>Intervalo de verificação da bateria personalizável;</li>
+        <li>Suporte a sons personalizados para cada percentagem.</li>
+    </ul>
+    
+    <h2>Uso</h2>
+    <p>Após a instalação, configure o complemento através do menu <strong>NVDA > Preferências > Configurações > Anunciador do Nível da Bateria</strong>. As opções disponíveis são:</p>
+    <ul>
+        <li><strong>Intervalo de verificação da bateria (segundos):</strong> Defina quantos segundos o complemento espera entre cada verificação do nível da bateria. Quanto menor o valor, mais elevado será o consumo de CPU.</li>
+        <li><strong>Intervalo de anúncio:</strong> Escolha entre:
+            <ul>
+                <li>Desactivado; Sem anúncios.</li>
+                <li>5% (anuncia em 5%, 10%, 15%, etc.)</li>
+                <li>10% (anuncia em 10%, 20%, 30%, etc.)</li>
+                <li>20% (anuncia em 20%, 40%, 60%, etc.)</li>
+                <li>25% (anuncia em 25%, 50%, 75%, 100%)</li>
+                <li>50% (anuncia em 50%, 100%)</li>
+                <li>Apenas quando a bateria estiver cheia (anuncia apenas em 100%)</li>
+            </ul>
+        </li>
+        <li><strong>Modo de anúncio:</strong> Seleccione entre:
+            <ul>
+                <li>Apenas voz;</li>
+                <li>Apenas som;</li>
+                <li>Som e voz.</li>
+            </ul>
+        </li>
+        <li><strong>Seleccionar som de anúncio:</strong> Escolha um ficheiro WAV da pasta <code>sounds\</code> para anúncios.</li>
+        <li><strong>Utilizar sons personalizados para cada percentagem:</strong> Marque esta caixa para usar ficheiros WAV específicos (ex.: 5.wav, 10.wav) na pasta <code>sounds\custom\</code>, correspondentes ao intervalo escolhido.</li>
+        <li><strong>Abrir pasta de sons:</strong> Abre a pasta <code>sounds\</code> no explorador de ficheiros, para que possa usar os seus próprios sons.</li>
+        <li><strong>Abrir pasta de sons personalizados:</strong> Abre a pasta <code>sounds\custom\</code>.</li>
+    </ul>
+    
+    <h2>Requisitos</h2>
+    <ul>
+        <li>Versão do NVDA 2019.3 ou superior.</li>
+        <li>Sistema operativo Windows com suporte a bateria (ex.: portáteis).</li>
+    </ul>
+    
+    <h2>Licença</h2>
+    <p>Licenciado sob a <a href="https://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License v2 (GPLv2)</a>.</p>
+</body>
+</html>

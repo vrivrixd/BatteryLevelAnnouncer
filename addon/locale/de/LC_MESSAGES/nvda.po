@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Battery Level Announcer 1.0\n"
+"Report-Msgid-Bugs-To: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"POT-Creation-Date: 2025-02-25 12:00-0300\n"
+"PO-Revision-Date: 2025-02-25 12:00-0300\n"
+"Last-Translator: Vitor Bruski <vrivrivb123@gmail.com>\n"
+"Language-Team: German <de@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Battery Level Announcer"
+msgstr "Batteriestandsankündiger"
+
+msgid "Battery check interval (seconds):"
+msgstr "Prüfintervall der Batterie (Sekunden):"
+
+msgid "Announcement interval:"
+msgstr "Ankündigungsintervall:"
+
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+msgid "5%"
+msgstr "5 %"
+
+msgid "10%"
+msgstr "10 %"
+
+msgid "20%"
+msgstr "20 %"
+
+msgid "25%"
+msgstr "25 %"
+
+msgid "50%"
+msgstr "50 %"
+
+msgid "Only when battery is full"
+msgstr "Nur wenn der Akku voll ist"
+
+msgid "Announcement mode:"
+msgstr "Ankündigungsmodus:"
+
+msgid "Speech only"
+msgstr "Nur Sprache"
+
+msgid "Sound only"
+msgstr "Nur Ton"
+
+msgid "Sound and Speech"
+msgstr "Ton und Sprache"
+
+msgid "Select announcement sound:"
+msgstr "Ankündigungston auswählen:"
+
+msgid "No sounds available"
+msgstr "Keine Töne verfügbar"
+
+msgid "Open sounds folder"
+msgstr "Tonordner öffnen"
+
+msgid "Failed to play sound: {error}"
+msgstr "Fehler beim Abspielen des Tons: {error}"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "Failed to open sounds folder: {error}"
+msgstr "Fehler beim Öffnen des Tonordners: {error}"
+
+msgid "Please enter a valid positive integer for the battery check interval (e.g., 1, 2, 3)."
+msgstr "Bitte geben Sie eine gültige positive Ganzzahl für das Prüfintervall der Batterie ein (z. B. 1, 2, 3)."
+
+msgid "Invalid Input"
+msgstr "Ungültige Eingabe"
+
+msgid "Battery level: {level}%"
+msgstr "Batteriestand: {level} %"
+
+msgid "Use custom sounds for each percentage"
+msgstr "Benutzerdefinierte Töne für jeden Prozentsatz verwenden"
+
+msgid "Open custom sounds folder"
+msgstr "Benutzerdefinierten Tonordner öffnen"
+
+msgid "Failed to open custom sounds folder: {error}"
+msgstr "Fehler beim Öffnen des benutzerdefinierten Tonordners: {error}"
+
+msgid "The custom sounds folder is empty. Please add WAV files (e.g., 5.wav, 10.wav, etc.) to the 'sounds/custom' folder for each percentage."
+msgstr "Der benutzerdefinierte Tonordner ist leer. Bitte fügen Sie WAV-Dateien (z. B. 5.wav, 10.wav usw.) für jeden Prozentsatz zum Ordner 'sounds/custom' hinzu."
+
+msgid "Warning"
+msgstr "Warnung"
+
+msgid "The custom sounds folder was not found and may have been deleted. It has been recreated. Please restart NVDA to ensure it is fully initialized, then add WAV files (e.g., 5.wav, 10.wav, etc.) to 'sounds/custom'."
+msgstr "Der benutzerdefinierte Tonordner wurde nicht gefunden und könnte gelöscht worden sein. Er wurde neu erstellt. Bitte starten Sie NVDA neu, um sicherzustellen, dass er vollständig initialisiert ist, und fügen Sie dann WAV-Dateien (z. B. 5.wav, 10.wav usw.) zum Ordner 'sounds/custom' hinzu."
+
+msgid "This computer does not have a system battery. The Battery Level Announcer will be disabled."
+msgstr "Dieser Computer hat keinen Systemakku. Der Batteriestandsankündiger wird deaktiviert."
+
+msgid "No Battery Detected"
+msgstr "Kein Akku Erkannt"

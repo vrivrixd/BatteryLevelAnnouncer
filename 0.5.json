@@ -1,0 +1,29 @@
+{
+	"addonId": "BatteryLevelAnnouncer",
+	"addonVersionNumber": {
+		"major": 1,
+		"minor": 0,
+		"patch": 0
+	},
+	"addonVersionName": "1.0",
+	"displayName": "Battery Level Announcer",
+	"publisher": "Vitor Bruski",
+	"description": "Announces the battery level automatically, either with sound or speech.",
+	"homepage": "https://github.com/vrivrixd/BatteryLevelAnnouncer",
+	"minNVDAVersion": {
+		"major": 2019,
+		"minor": 3,
+		"patch": 0
+	},
+	"lastTestedVersion": {
+		"major": 2024,
+		"minor": 4,
+		"patch": 0
+	},
+	"channel": "stable",
+	"URL": "https://github.com/vrivrixd/BatteryLevelAnnouncer/releases/download/1.0/BatteryLevelAnnouncer1.0.nvda-addon",
+	"sha256": "69060ababae80c17dd3d7e71dcca21f0db8567f5eb74379cd97536c1c3ba1622",
+	"sourceURL": "https://github.com/vrivrixd/BatteryLevelAnnouncer",
+	"license": "GPL v2",
+	"licenseURL": ""
+}
